@@ -14,7 +14,7 @@
             <div class="col-md-8 mx-auto">
                 <div class="card card-profile card-plain">
                     <div class="card-body ">
-                        <h2 class="card-title text-info">Política de privadessa</h2>
+                        <h2 class="card-title text-info">Política de privacitat</h2>
                     </div>
                 </div>
             </div>
@@ -23,17 +23,51 @@
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
                     <p>
-                        Primàries Reus garanteix el compliment amb la normativa de protecció de dades de caràcter personal, així com la implementació de les mesures de seguretat recollides en l’article 9 de la Llei Orgànica 15/1999, de 13 de desembre, de protecció de dades de caràcter personal (LOPD) i el Art. 81 del Reial Decret 1720/2007, de 21 de desembre, de Protecció de Dades Personals (en endavant, RDLOPD).
+                        La política de privacitat del lloc <b>www.primariesreus.cat</b> informa els usuaris d’aquesta pàgina
+                        web. L’accés a la web de Primàries Reus i a la seva informació comporta la submissió i
+                        l’acceptació de les condicions que preveu aquest avís legal. Per això us recomanem que en llegiu
+                        amb atenció el contingut si voleu accedir a la informació i els serveis que ofereix la web de
+                        Primàries Reus i fer-ne ús.
                     </p>
                     <p>
-                        Les dades que Primàries Reus  sol•liciti o els usuaris facilitin seran tractades amb conformitat a la Llei Orgànica de Protecció de Dades (LOPD) i s’utilitzaran d’acord amb les següents finalitats:
-                        -Mantenir informat a l’usuari sobre les nostres notícies i novetats o d’atendre les seves consultes i peticions a través dels formularis i correus electrònics que posem a la seva disposició a tal efecte a la nostra pàgina web.
+                    <h5 class="text-info">TITULARITAT DEL DOMINI</h5>
+
+                    El nom del domini www.primariesreus.cat, està registrat a favor de Associació Casa Pairal de
+                    Reus, amb CIF G55732374 i domicili social a Plaça Prim 12, 5 D, Reus 43201 (Tarragona).
                     </p>
                     <p>
-                        Segons els art. 5 i 6 de la LOPD, aquestes dades formaran part d’un fitxer automatitzat, que ha estat inscrit en el Registre General de Protecció de Dades de l’Agència Espanyola de Protecció de Dades (AEPD). L’usuari podrà accedir, rectificar i cancel•lar les seves dades en qualsevol moment mitjançant comunicació escrita, a la qual heu d’adjuntar una fotocòpia del vostre DNI, adreçada a l’Assemblea Nacional Catalana a: CALLE FALSA 00 MORDOR o al correu electrònic “XXXX@RANDOM.CAT"
+                        L’Associació Casa Pairal de Reus garanteix el compliment amb la normativa de protecció de dades
+                        de caràcter personal, així com amb la implementació de les mesures de seguretat recollides en
+                        l’article 9 de la Llei Orgànica 15/1999, de 13 de desembre, de protecció de dades de caràcter
+                        personal (LOPD) i l’article 81 del Reial Decret 1720/2007, de 21 de desembre, de Protecció de
+                        Dades Personals (RDLOPD).
                     </p>
                     <p>
-                        Les dades requerides seran utilitzades únicament per enviar informació sobre les primàries a Reus, i en cap cas amb finalitats comercials.
+                        Les dades que l’Associació Casa Pairal de Reus sol·liciti o els usuaris facilitin seran
+                        tractades amb conformitat a la LOPD i s’utilitzaran d’acord amb les següents finalitats:
+                    <ul>
+                        <li>
+                            Mantenir informat a l’usuari sobre les nostres noticies i novetats.
+                        </li>
+                        <li>
+                            Atendre les seves consultes i peticions a través dels formularis i correus electrònics que
+                            posem a la seva disposició a tal efecte a la nostra pàgina web
+                        </li>
+                    </ul>
+                    </p>
+                    <p>
+                        En cap cas les dades facilitades s’utilitzaran amb finalitats comercials.
+                    </p>
+                    <p>
+                        Segons els articles 5 i 6 de la LOPD, aquestes dades formaran part d’un fitxer automatitzat, que
+                        ha estat inscrit en el Registre General de Protecció de Dades del’Agència Espanyola de Protecció
+                        de Dades (AEPD)
+                    </p>
+                    <p>
+                        L’usuari podrà accedir, rectificar i cancel·lar les seves dades en qualsevol moment mitjançant
+                        comunicació escrita adreçada a la persona delegada de protecció de dades, a la qual heu
+                        d’adjuntar una fotocòpia del vostre DNI, adreçada a l’Associació Casa Pairal de Reus a: Plaça
+                        Prim 12, 5 D, Reus 43201 (Tarragona) o al correu electrònic delegatdades@primariesreus.cat.
                     </p>
                 </div>
             </div>

@@ -54,7 +54,7 @@
             </nav>
         @show
         @section('header-main')
-            <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url({{ asset('images/web/main/testMap.jpg') }});">
+            <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url({{ asset('images/web/main/reus.jpg') }});">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto text-center">
@@ -70,7 +70,7 @@
             @section('footer')
                 <footer class="footer bg-info mb-3 rounded">
                     <div class="container">
-                        <a class="footer-brand text-white" href="#">Primàries Reus</a>
+                        <a class="footer-brand text-white" href="{{ route('home') }}">Primàries Reus</a>
                         <ul class="pull-center">
                             <li>
                                 <a class="text-white" href="{{ route('contactMain') }}">

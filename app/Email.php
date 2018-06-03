@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Email extends Model
 {
-    const EMAIL_INFO_DEFAULT = 'info@primariesreus.com';
+    const EMAIL_INFO_DEFAULT = 'info@primariesreus.cat';
+    const EMAIL_DELEGATE_LEGAL_DEFAULT = 'delegatdades@primariesreus.cat';
     /**
      * The attributes that are mass assignable.
      *

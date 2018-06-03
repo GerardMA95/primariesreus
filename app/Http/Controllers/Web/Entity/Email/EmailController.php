@@ -11,6 +11,7 @@ use App\Http\Services\Web\reCaptcha\ReCaptchaValidationService;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class EmailController extends Controller
 {
@@ -86,10 +87,8 @@ class EmailController extends Controller
             $email = $emailToSend->email;
 
             if ($email->emailType->id == EmailType::EMAIL_QUESTION) {
-                dump('EMAIL_QUESTION', $email);
 
             } else if ($email->emailType->id == EmailType::EMAIL_REGISTER_CONF) {
-                dump('EMAIL_REGISTER_CONF', $email);
                 $user = User::where('email', $email->email_to)->first();
                 if(!$user->active) {
                     $sendEmail = true;
@@ -100,15 +99,13 @@ class EmailController extends Controller
                     );
                 }
             } else if ($email->emailType->id == EmailType::EMAIL_DISABLE_REGISTER_CONF) {
-                $sendEmail = false;
-                dump('EMAIL_DISABLE_REGISTER_CONF', $email);
+
             } else if ($email->emailType->id == EmailType::EMAIL_DELETE_DATA_CONF) {
-                $sendEmail = false;
-                dump('EMAIL_DELETE_DATA_CONF', $email);
+
             }
 
             if($sendEmail) {
-                \Mail::send('emailTemplates.emailConfirmation', $data, function ($message) use ($emailTo, $subject) {
+                Mail::send('emailTemplates.emailConfirmation', $data, function ($message) use ($emailTo, $subject) {
                     $message->from(Email::EMAIL_INFO_DEFAULT, 'Primàries Reus');
                     $message->to($emailTo)->subject($subject);
                 });
