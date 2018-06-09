@@ -31,11 +31,17 @@
                     <div class="card-body ">
                         <h2 class="card-title text-info">REUS. ELECCIONS MUNICIPALS 2019</h2>
                         <h4 class="card-category text-muted text-info">LES FAQS SOBRE LA LLISTA DE CONCENTRACIÓ DE VOT REPUBLICÀ</h4>
-                        <a href="{{ route('adhesionsMain') }}" class="btn btn-info btn-round">Adherir-se<div class="ripple-container"></div></a>
+                        <a href="{{ route('adhesionsMain') }}" class="btn btn-info btn-round">adhereix-t'hi<div class="ripple-container"></div></a>
+                        @if($usersList->isNotEmpty())
+                            <h2 class="card-title text-black">
+                                Ja en som <span class="text-primary">{{ $usersList->count() }}</span>!
+                            </h2>
+                        @endif
                     </div>
                 </div>
             </div>
         </div>
+        <hr>
         <div class="section-text">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
@@ -71,7 +77,7 @@
 
                     <h4 class="title text-info">Quan ho farem?</h4>
                     <p>
-                        Des d’avui mateix. I, si vols treballar com a voluntari o voluntària pel projecte, <a href="{{ route('adhesionsMain') }}">adhereix-t’hi</a>.
+                        Des d’avui mateix. Si vols participar en el projecte, <a href="{{ route('adhesionsMain') }}">adhereix-t’hi</a>.
                     </p>
                 </div>
             </div>

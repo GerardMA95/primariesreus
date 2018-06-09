@@ -22,21 +22,15 @@ class UserController extends Controller
      */
     public function create()
     {
-        return view('web.adhesions.adhesionsMainPage');
+        $usersListArray = User::where(['active' => true])->get();
 
-//        $reCaptcha = $request->input('g-recaptcha-response');
-//        $reCaptchaValidationService = new ReCaptchaValidationService();
-//        $reCaptchaValidated = $reCaptchaValidationService->verifyResponse($_SERVER["REMOTE_ADDR"], $reCaptcha);
-//        if ( $reCaptchaValidated->success ) {
-//
-//        }
+        return view('web.adhesions.adhesionsMainPage', ['usersList' => $usersListArray]);
     }
 
     /**
-     * Store a newly created resource in storage.
-     *
-     * @param  UserCreateRequest $request
-     * @return Response
+     * @param UserCreateRequest $request
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Exception
      */
     public function store(UserCreateRequest $request)
     {
@@ -47,10 +41,11 @@ class UserController extends Controller
         $user->fill($validated);
 
         $reCaptcha = $request->input('g-recaptcha-response');
-        $reCaptchaValidationService = new ReCaptchaValidationService();
-        $reCaptchaValidated = $reCaptchaValidationService->verifyResponse($_SERVER["REMOTE_ADDR"], $reCaptcha);
+//        $reCaptchaValidationService = new ReCaptchaValidationService();
+//        $reCaptchaValidated = $reCaptchaValidationService->verifyResponse($_SERVER["REMOTE_ADDR"], $reCaptcha);
 
-        if ( $reCaptchaValidated->success ) {
+        //Error timeout recaptcha
+        if ( $reCaptcha ) {
             if (User::where('email', $user->email)->get()->isEmpty()) {
                 if ($user->save()) {
                     $email = new Email();

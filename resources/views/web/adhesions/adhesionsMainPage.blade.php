@@ -42,7 +42,17 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-5 ml-auto">
+                                    @if($usersList->isNotEmpty())
                                     <div class="info info-horizontal">
+                                        <div class="icon icon-success">
+                                            <i class="material-icons">person_add</i>
+                                        </div>
+                                        <div class="description">
+                                            <h3 class="info-title">Ja en som <span class="text-primary">{{ $usersList->count() }}</span>!</h3>
+                                        </div>
+                                    </div>
+                                    @endif
+                                    <div class="info info-horizontal" style="padding: 0px;">
                                         <div class="icon icon-success">
                                             <i class="material-icons">verified_user</i>
                                         </div>
@@ -77,7 +87,7 @@
                                                 </div>
                                                 <input type="text" name="name" class="form-control" placeholder="Nom" required>
                                                 <div class="invalid-tooltip">
-                                                    Introdueix-hi el seu nom, siusplau
+                                                    Introdueixi el seu nom, siusplau
                                                 </div>
                                             </div>
                                         </div>
@@ -90,7 +100,7 @@
                                                 </div>
                                                 <input type="text" name="surname" class="form-control" placeholder="Primer cognom" required>
                                                 <div class="invalid-tooltip">
-                                                    Introdueix-hi el seu primer cognom, siusplau
+                                                    Introdueixi el seu primer cognom, siusplau
                                                 </div>
                                             </div>
                                         </div>
@@ -102,9 +112,6 @@
                                                 </span>
                                                 </div>
                                                 <input type="text" name="surname2" class="form-control" placeholder="Segon cognom">
-                                                <div class="invalid-tooltip">
-                                                    Introdueix-hi el seu segon cognom, siusplau
-                                                </div>
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -116,8 +123,31 @@
                                                 </div>
                                                 <input type="email" name="email" class="form-control" placeholder="Correu electrònic" required>
                                                 <div class="invalid-tooltip">
-                                                    Introdueix-hi el seu correu electrònic, siusplau
+                                                    Introdueixi el seu correu electrònic, siusplau
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="material-icons">location_on</i>
+                                                </span>
+                                                </div>
+                                                <input type="text" name="postal_code" class="form-control" placeholder="Codi postal" required>
+                                                <div class="invalid-tooltip">
+                                                    Introdueixi el seu codi postal, siusplau
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="material-icons">phone</i>
+                                                </span>
+                                                </div>
+                                                <input type="text" name="phone_number" class="form-control" placeholder="Telèfon">
                                             </div>
                                         </div>
                                         <div class="form-check">
@@ -126,7 +156,7 @@
                                                 <span class="form-check-sign">
                                                 <span class="check"></span>
                                             </span>
-                                                <div class="invalid-feedback show">Es necesàri que accepti les condicions per a poder continuar</div>
+                                                <div class="invalid-feedback show">És necessàri que accepti les condicions per a poder continuar</div>
 
                                                 Accepto
                                                 <a href="{{ route('policyMain') }}">els termes i les condicions</a>.

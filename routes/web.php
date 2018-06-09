@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('web.main.main');
+    $usersListArray = \App\User::where(['active' => true])->get();
+    return view('web.main.main', ['usersList' => $usersListArray]);
 })->name('home');
 
 Route::namespace('Web')->group(function () {

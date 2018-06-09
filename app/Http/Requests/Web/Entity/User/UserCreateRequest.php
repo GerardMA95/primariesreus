@@ -28,7 +28,9 @@ class UserCreateRequest extends FormRequest
             'surname' => 'required',
             'surname2' => 'nullable',
             'email' => 'required|email',
-            'terms' => 'required'
+            'terms' => 'required',
+            'postal_code' => 'required|regex:/\b\d{5}\b/',
+            'phone_number' => 'nullable|regex:/\b\d{9}\b/',
         ];
 
         return $rules;

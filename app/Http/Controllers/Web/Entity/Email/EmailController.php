@@ -40,10 +40,11 @@ class EmailController extends Controller
         $email->fill($validated);
 
         $reCaptcha = $request->input('g-recaptcha-response');
-        $reCaptchaValidationService = new ReCaptchaValidationService();
-        $reCaptchaValidated = $reCaptchaValidationService->verifyResponse($_SERVER["REMOTE_ADDR"], $reCaptcha);
+//        $reCaptchaValidationService = new ReCaptchaValidationService();
+//        $reCaptchaValidated = $reCaptchaValidationService->verifyResponse($_SERVER["REMOTE_ADDR"], $reCaptcha);
 
-        if ($reCaptchaValidated->success) {
+        //Error timeout recaptcha
+        if ($reCaptcha) {
             $email->email_to = Email::EMAIL_INFO_DEFAULTi;
             $email->email_type_id = EmailType::EMAIL_QUESTION;
 
@@ -90,7 +91,7 @@ class EmailController extends Controller
 
             } else if ($email->emailType->id == EmailType::EMAIL_REGISTER_CONF) {
                 $user = User::where('email', $email->email_to)->first();
-                if(!$user->active) {
+                if (!$user->active) {
                     $sendEmail = true;
                     $emailTo = $email->email_to;
                     $subject = "Primaries Reus - confirmació d'usuari - " . $user->name;
@@ -104,12 +105,12 @@ class EmailController extends Controller
 
             }
 
-            if($sendEmail) {
+            if ($sendEmail) {
                 Mail::send('emailTemplates.emailConfirmation', $data, function ($message) use ($emailTo, $subject) {
                     $message->from(Email::EMAIL_INFO_DEFAULT, 'Primàries Reus');
                     $message->to($emailTo)->subject($subject);
                 });
-                $date =  new \DateTime();
+                $date = new \DateTime();
                 $emailToSend->send_date = $date->format('Y-m-d H:i:s');
                 $emailToSend->save();
             }

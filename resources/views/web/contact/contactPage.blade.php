@@ -42,7 +42,7 @@
                     <div class="form-group">
                         <label for="email_from" class="bmd-label-floating">Correu electrònic</label>
                         <input name="email_from" type="email" class="form-control" id="email_from" required>
-                        <span class="bmd-help">Únicament l'utilitzarem per a contesar-li</span>
+                        <span class="bmd-help">Únicament l'utilitzarem per respondre el seu dubte.</span>
                         <div class="invalid-tooltip">
                             Introdueix-hi el seu correu, siusplau
                         </div>

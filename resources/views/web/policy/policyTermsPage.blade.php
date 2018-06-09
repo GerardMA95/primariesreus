@@ -22,53 +22,111 @@
         <div class="section-text">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
+                    <h5 class="text-info">Informació legal de la web i política de privacitat</h5>
                     <p>
-                        La política de privacitat del lloc <b>www.primariesreus.cat</b> informa els usuaris d’aquesta pàgina
-                        web. L’accés a la web de Primàries Reus i a la seva informació comporta la submissió i
-                        l’acceptació de les condicions que preveu aquest avís legal. Per això us recomanem que en llegiu
-                        amb atenció el contingut si voleu accedir a la informació i els serveis que ofereix la web de
-                        Primàries Reus i fer-ne ús.
+                        Casa Pairal de Reus és l’entitat titular del domini <a href="www.primariesreus.cat">www.primariesreus.cat</a>
+                        al qual ha accedit.
                     </p>
                     <p>
-                    <h5 class="text-info">TITULARITAT DEL DOMINI</h5>
+                        Totes les dades de caràcter personal que l'usuari de la web decideixi aportar voluntariament per
+                        subscriure el contingut que s’hi exposa seran recollides per l’entitat Casa Pairal de Reus.
+                    </p>
+                    <p>
+                        L’accés a aquesta web facilitant les dades d’acord amb la informació que s’hi exposa comporta
+                        l’acceptació de les Condicions generals previstes en aquest avís legal. Per això, n’ha de llegir
+                        atentament el contingut si vol inscriure’s en la proposta s’ofereix.
+                    </p>
+                    <p>
+                        A l'efecte de la present Política de Privacitat, s'ha d'entendre com "Usuari" a tota persona
+                        física interessada en subscriure’s en el que exposa la web Casa Pairal de Reus qui, com a
+                        responsable del tractament, sol·licitarà, amb caràcter previ a l'aportació de les seves dades de
+                        caràcter personal, el consentiment exprés de l'Usuari a la present Política de Privacitat, quan
+                        així sigui necessari ia qualsevol altre aspecte que requereixi la prèvia autorització del
+                        mateix.
+                    </p>
+                    <p>
+                        L'objectiu de la present Política de Privacitat és donar transparència a la informació de com
+                        són tractades les dades personals.
+                    </p>
+                    <p>
+                        L'usuari inscrit pot posar-se en contacte a les següents bústies:
+                        <ul>
+                            <li>
+                                <p>
+                                    Amb el responsable de Compliment Legal i Normatiu de Casa Pairal de Reus per resoldre
+                                    qualsevol dubte o necessitat que tingui en matèria de protecció de dades:
+                                    <b>delegatdades@primariesreus.cat</b>
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                    <h5 class="text-info">Finalitat per la que es recopilen les seves dades personals</h5>
+                    <p>
+                        Es tractaran les dades de caràcter personal que l'Usuari faciliti per a les finalitats que
+                        s'indiquen a continuació:
+                    </p>
+                    <p>
+                        <ol type="a">
+                            <li>Validar la inscripció pel comptador de persones subscrites.</li>
+                            <li>Possibilitat de rebre informacions per correu electrònic de seguiment de la proposta del
+                                web
+                            </li>
+                        </ol>
+                    </p>
+                    <h5 class="text-info">Quina és la legitimació per al tractament de les seves dades personals?</h5>
+                    <p>
+                        La base legal per al tractament de les dades per a les finalitats descrites anteriorment és el
+                        consentiment que se sol·licita a l'Usuari per a rebre eventuals comunicats per mail informatius
+                        sobre la evolució de la inciativa que exposa la web i acceptar que la seva adhesió computi en el
+                        web d’uina forma validada.
+                    </p>
+                    <p>
+                        En cap cas es cediran o explotaran les seves dades o seran destinades a un ús diferent de l'aquí
+                        indicat expressament.
+                    </p>
+                    <h5 class="text-info">Per quan de temps es conservaran les seves dades personals?</h5>
+                    <p>
+                        Es conservaran les dades com a molt tard fins el 31 de desembre de 2019. En qualsevol cas no es
+                        conservaran més temps del necessari per a les finalitats descrites anteriorment, sense perjudici
+                        de la conservació que resultés necessària per a la formulació, l'exercici o la defensa de
+                        potencials reclamacions i / o sempre que ho permetés la legislació aplicable.
+                    </p>
+                    <h5 class="text-info">Quins són els drets dels Usuaris?</h5>
+                    <p>
+                        S’informa a l'Usuari sobre la possibilitat que l'assisteix d'exercitar els drets d'accés,
+                        rectificació, oposició, supressió, portabilitat i limitació del tractament així com a rebutjar
+                        el tractament automatitzat que es pugui fer de les dades personals aqui recollides.
+                    </p>
+                    <p>
+                        Aquests drets podran ser exercitats gratuïtament per l'Usuari, i si escau qui el representi,
+                        mitjançant sol·licitud escrita i signada dirigida a la següent adreça electrònica:
+                        <b>delegatdades@primariesreus.cat</b>. La sol·licitud haurà de contenir en l'assumpte la referència
+                        "Protecció de dades” i ha d'incloure necessariament les següents dades: nom i cognoms de
+                        l'Usuari, domicili a efectes de notificacions i petició en què es concreta la sol·licitud. En el
+                        cas de representació, haurà de provar mitjançant document fefaent.
+                    </p>
+                    <p>
+                        A més dels anteriors drets, l'Usuari tindrà dret a retirar el consentiment atorgat en qualsevol
+                        moment mitjançant el mateix procediment, sense que aquesta retirada de consentiment afecti la
+                        licitud del tractament anterior a la retirada del mateix. Igual podrà revocar tota autorització
+                        o donar-se totalment de baixa en qualsevol moment.
+                    </p>
+                    <p>
+                        L'Usuari té dret a presentar una reclamació davant l'autoritat de control pertinent.
+                    </p>
 
-                    El nom del domini www.primariesreus.cat, està registrat a favor de Associació Casa Pairal de
-                    Reus, amb CIF G55732374 i domicili social a Plaça Prim 12, 5 D, Reus 43201 (Tarragona).
+                    <h5 class="text-info">Política de privadesa i protecció de dades</h5>
+                    <p>
+                        Casa Pairal de Reus compleix íntegrament la legislació vigent en matèria de protecció de dades
+                        de caràcter personal i els compromisos de confidencialitat propis exigis legalment.
                     </p>
                     <p>
-                        L’Associació Casa Pairal de Reus garanteix el compliment amb la normativa de protecció de dades
-                        de caràcter personal, així com amb la implementació de les mesures de seguretat recollides en
-                        l’article 9 de la Llei Orgànica 15/1999, de 13 de desembre, de protecció de dades de caràcter
-                        personal (LOPD) i l’article 81 del Reial Decret 1720/2007, de 21 de desembre, de Protecció de
-                        Dades Personals (RDLOPD).
+                        Casa Pairal de Reus ha adoptat les mesures tècniques necessàries per mantenir el nivell de
+                        seguretat requerit, segons la naturalesa de les dades personals tractades i les circumstàncies
+                        del tractament, amb l’objectiu d’evitar-ne, en la mesura que sigui possible i sempre segons
+                        l’estat de la tècnica, l’alteració, la pèrdua, el tractament o l’accés no autoritzat.
                     </p>
-                    <p>
-                        Les dades que l’Associació Casa Pairal de Reus sol·liciti o els usuaris facilitin seran
-                        tractades amb conformitat a la LOPD i s’utilitzaran d’acord amb les següents finalitats:
-                    <ul>
-                        <li>
-                            Mantenir informat a l’usuari sobre les nostres noticies i novetats.
-                        </li>
-                        <li>
-                            Atendre les seves consultes i peticions a través dels formularis i correus electrònics que
-                            posem a la seva disposició a tal efecte a la nostra pàgina web
-                        </li>
-                    </ul>
-                    </p>
-                    <p>
-                        En cap cas les dades facilitades s’utilitzaran amb finalitats comercials.
-                    </p>
-                    <p>
-                        Segons els articles 5 i 6 de la LOPD, aquestes dades formaran part d’un fitxer automatitzat, que
-                        ha estat inscrit en el Registre General de Protecció de Dades del’Agència Espanyola de Protecció
-                        de Dades (AEPD)
-                    </p>
-                    <p>
-                        L’usuari podrà accedir, rectificar i cancel·lar les seves dades en qualsevol moment mitjançant
-                        comunicació escrita adreçada a la persona delegada de protecció de dades, a la qual heu
-                        d’adjuntar una fotocòpia del vostre DNI, adreçada a l’Associació Casa Pairal de Reus a: Plaça
-                        Prim 12, 5 D, Reus 43201 (Tarragona) o al correu electrònic delegatdades@primariesreus.cat.
-                    </p>
+
                 </div>
             </div>
         </div>
